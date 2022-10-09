@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2632;
+}
+
+.container {
+    margin-top: 150px;
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #323a49;
+}
+
+.container h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+    color: #52ffa8;
+}
+
+.content-advice {
+    display: flex;
+    justify-content: center;
+}
+
+#advice {
+    position: absolute;
+    width: 300px;
+    max-height: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: #cee3e9;
+    font-size: 23px;
+}
+
+.content-img-divider {
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    width: 350px;
+    margin-top: 170px;
+}
+
+.container #button-advice {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 45px;
+    height: 45px;  
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #52ffa8;
+    cursor: pointer;
+}
+
+.container #button-advice:hover {
+    background-color: #1ef489;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #cee3e9;
+}
+
+footer a {
+    color: #52ffa8;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 340px;
+    }
+    .container img {
+        width: 290px;
+        margin-top: 170px;
+    }
+    footer {
+        font-size: 13px;
+        top: 500px;
+    }
+}
